@@ -9,7 +9,7 @@ function voice() {
   for (let voice of synth.getVoices()) {
     let option = document.createElement("option");
     option.text = voice.name;
-    voicelist.addEventListener(option);
+    voicelist.add(option);
     console.log(option);
   }
 }
