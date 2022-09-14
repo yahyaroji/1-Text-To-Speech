@@ -1,0 +1,80 @@
+main {
+  background-color: rgba(255, 255, 255, 0.389);
+  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+  outline: 0.1rem solid rgb(56, 47, 129);
+  box-shadow: 0px 0px 20px 5-x rgb(54, 22, 109);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(10, 2, 68);
+  text-align: center;
+}
+.text-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1px;
+  padding-bottom: 20px;
+}
+
+.text-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  align-self: start;
+}
+
+#text {
+  height: 7rem;
+  width: 20rem;
+  border: none;
+  outline: 2px solid rgba(51, 0, 255, 0.389);
+  border-radius: 0.5rem;
+  resize: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px 10px;
+}
+
+.voice-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.voice-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  align-self: start;
+}
+
+#voice {
+  height: 3rem;
+  width: 20rem;
+  border: none;
+  outline: 2px solid rgba(128, 128, 128, 0.6);
+  padding: 8px 10px;
+}
+
+.submit {
+  background-color: blueviolet;
+  color: white;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  border: none;
+  margin: auto;
+}
